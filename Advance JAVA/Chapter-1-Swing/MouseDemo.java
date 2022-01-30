@@ -25,7 +25,12 @@ class MouseListen extends JFrame{
 				int x = e.getX();
 				int y = e.getY();
 				System.out.println(x +" , "+ y);
+//				System.out.println("Mouse Pressed");
 			}
+			public void mouseClicked(MouseEvent e){
+//				System.out.println("Mouse Clicked!");
+			}
+			
 		});
 		
 		

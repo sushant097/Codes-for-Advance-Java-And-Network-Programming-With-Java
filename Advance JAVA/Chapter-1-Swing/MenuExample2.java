@@ -3,6 +3,9 @@ package swingDemo;
 import javax.swing.*;
 import java.awt.event.*;
 
+/*TODO: Complete this as full notepad project.
+ * 
+ * */
 public class MenuExample2 implements ActionListener {
 	JFrame f;
 	JMenuBar mb;

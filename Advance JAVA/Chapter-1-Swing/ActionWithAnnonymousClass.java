@@ -1,6 +1,8 @@
 package swingDemo;
 
+import java.awt.Color;
 import java.awt.FlowLayout;
+import java.awt.Graphics;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
@@ -58,6 +60,7 @@ class DemoAnnonymousClass extends JFrame
 				num2 = Integer.parseInt(t2.getText());
 				result = num1 + num2;
 				l.setText(result + "");
+				
 				
 			}
 			

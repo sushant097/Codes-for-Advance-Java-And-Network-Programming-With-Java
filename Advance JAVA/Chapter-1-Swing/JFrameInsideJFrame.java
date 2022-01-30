@@ -15,8 +15,8 @@ public class JFrameInsideJFrame extends JFrame
 	public JFrameInsideJFrame() 
 	{
 		b = new JButton("Open Login Page");
-		b.setBackground(Color.GREEN);
-		b.setForeground(Color.CYAN);
+//		b.setBackground(Color.GREEN);
+//		b.setForeground(Color.CYAN);
 		b.setBounds(200, 200, 150, 150);
 		
 		

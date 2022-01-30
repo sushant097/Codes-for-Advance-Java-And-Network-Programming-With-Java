@@ -11,12 +11,12 @@ public class TestInetAddresss {
 			System.out.println(inetAddresses1);
 
 			// Query website ip address
-			InetAddress inetAddresses2 = InetAddress.getByName("www.facebook.com");
+			InetAddress inetAddresses2 = InetAddress.getByName("www.orielly.com");
 			System.out.println(inetAddresses2);
 
-			System.out.println("Printing All address of facebook.com");
+			System.out.println("Printing All address of orielly.com");
 
-			InetAddress[] addresses = InetAddress.getAllByName("www.facebook.com");
+			InetAddress[] addresses = InetAddress.getAllByName("www.orielly.com");
 			for (InetAddress address : addresses) {
 				System.out.println(address);
 			}
