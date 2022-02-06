@@ -14,8 +14,8 @@ public class RowSetScrollable {
 		String pass = "root";
 		String query = "SELECT * FROM STUDENTS";
 		
-		// load and register the driver
-		 Class.forName("com.mysql.cj.jdbc.Driver"); // load driver
+		 // load and register the driver
+		  Class.forName("com.mysql.cj.jdbc.Driver"); // load driver
 		  //Creating the RowSet object
 	      RowSet rowSet = RowSetProvider.newFactory().createJdbcRowSet();
 	      rowSet.setUrl(url);
