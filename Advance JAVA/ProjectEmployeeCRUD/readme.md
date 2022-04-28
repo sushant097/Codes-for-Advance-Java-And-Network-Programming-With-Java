@@ -1,0 +1,72 @@
+# Employee Management System - CRUD Operation
+
+Employee Directory is a web application developed using JSP and Servlets. The goal of the application is to keep track of the employees and the application involves the basic CRUD operations, it also involves the MVC Design pattern.
+
+## Tools and Technologies used
+* JSP
+* Servlets
+* MVC Design Pattern
+* MySQL Workbench
+* Bootstrap 4
+* Eclipse Neon 3
+* Apache tomcat 8
+
+
+## Steps to install
+1. Import the project in your Eclipse
+
+2. Create a MySQL Database
+    - `CREATE DATABASE employeedirectory;`
+
+
+3. Create a table and insert values
+    ```
+    create table tbl_login(
+    email varchar(100) primary key not null,
+    password varchar(256) not null
+    );
+    ```
+
+
+    ```
+    create table tbl_employee(
+    id int primary key not null auto_increment,
+    name varchar(255) not null,
+    dob varchar(255) not null,
+    department varchar(255) not null
+    );
+    ```
+
+    ```
+    insert into tbl_employee(name, dob, department)values("Jhon", "12-12-1991", "Marketing");
+
+    insert into tbl_employee(name, dob, department)values("Sara", "21-05-1992", "Testing");
+
+    insert into tbl_employee(name, dob, department)values("Paul", "23-04-1988", "Development");
+
+    insert into tbl_employee(name, dob, department)values("David", "18-03-1989", "Support");
+
+    insert into tbl_login(email, password) values("abc@jbc.edu.np", "123");
+
+    ```
+
+4. Change the MySQL Username and Password as per your installation
+
+* open `src/com/emp/util/DBConnectionUtil.java` file.
+
+* change USERNAME and PASSWORD as per your installation.
+
+
+**For jsp-tag ; there is library inside WEB-INF/lib/jstl-1.2.jar **
+
+
+Note:
+Out previous way of adding mysql connector as reference library not work here. Because, we have to deploy the server and all the files should be inside tomcat directory itself.
+You have to put the mysql connector jar file inside apache-tomcat-8.5.75\lib  whereever you extracted it.
+check this video: https://www.youtube.com/watch?v=UzJjb10SlA0 for reference.
+
+This is for the reference project only. Do others projects which is needed during external examiner.
+* Hospital Management System. [Reference](https://github.com/piyushwani004/HospitalManagementSysyem)
+* Simple ToDo App [Reference](https://www.sourcecodeexamples.net/2020/10/jsp-servlet-jdbc-and-mysql-database-project-todo-app.html)
+
+
