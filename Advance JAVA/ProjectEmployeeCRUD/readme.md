@@ -61,12 +61,19 @@ Employee Directory is a web application developed using JSP and Servlets. The go
 
 
 Note:
-Out previous way of adding mysql connector as reference library not work here. Because, we have to deploy the server and all the files should be inside tomcat directory itself.
+Our previous way of adding mysql connector as reference library not work here. Because, we have to deploy the server and all the files should be inside tomcat directory itself.
 You have to put the mysql connector jar file inside apache-tomcat-8.5.75\lib  whereever you extracted it.
 check this video: https://www.youtube.com/watch?v=UzJjb10SlA0 for reference.
 
 This is for the reference project only. Do others projects which is needed during external examiner.
 * Hospital Management System. [Reference](https://github.com/piyushwani004/HospitalManagementSysyem)
-* Simple ToDo App [Reference](https://www.sourcecodeexamples.net/2020/10/jsp-servlet-jdbc-and-mysql-database-project-todo-app.html)
+* Simple ToDo App [Reference](https://github.com/Sheldon1999/ToDoList)
+* Student Attendance System [Reference](https://github.com/mehtaruchi02/Student-Attendance-Management-System)
+* Food Ordering System [Reference](https://github.com/am1tg/food-ordering-app)
+* Ecommerce [Reference](https://github.com/Enigma10/E-commerce-jsp-and-servlet-)
+* Online Movie Ticketing Booking Portal [Reference](https://github.com/karantatiwala/Online-Movie-Ticket-Booking-Portal)
+* Grocery Management System [Reference](https://github.com/tazeenm/Grocery_ManagementSystem)
+* Ecommerce with Admin panel [Reference](https://github.com/shivamvk/E-Commerce)
+* And more ...
 
 
